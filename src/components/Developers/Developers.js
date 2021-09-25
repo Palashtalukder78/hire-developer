@@ -5,7 +5,7 @@ const Developers = (props) => {
     const { name, img, role, country, experience,salary } = props.developer;
     return (
         <div className="col-md-4">
-            <div class="card p-2 my-2 developer text-md-center">
+            <div class="card p-2 my-2 developer">
                 <div className="text-center">
                     <img src={img} class="card-img-top dev-photo" alt="..." />
                 </div>

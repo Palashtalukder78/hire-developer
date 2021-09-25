@@ -1,0 +1,12 @@
+.thumbnailPhoto{
+    width: 90px;
+    height: 105px;
+}
+.hiredDev{
+    border-radius: 0 10px  10px 0;
+    background-color: rgb(238, 236, 236);
+}
+.hiredDev p{
+    margin: 0;
+    padding: 0;
+}
