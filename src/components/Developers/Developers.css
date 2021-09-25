@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(224, 233, 233);
+}
+.developer{
+    
+    background-color: rgb(99, 102, 231);
+    color: #fff;
+    border-radius: 45px 0 45px 0 ;
+    transition: 0.7s;
+}
+.developer:hover{
+    /* border-radius:  0 45px 0 45px; */
+    border-radius:  5px;
+    background-color: rgb(195, 195, 212);
+    color: #000
+}
+.dev-photo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.developer p{
+    margin: 5px 0;
+}
+.hire-btn{
+    background-color: cornsilk;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
