@@ -13,7 +13,9 @@ const Main = () => {
     }, []);
     const hireDeveloperHandle = developer =>{
         const hired = [...hireDeveloper, developer];
-        setHireDeveloper(hired);
+        if(!hireDeveloper.find(dev => dev === developer)){
+            setHireDeveloper(hired);
+        }
     }
     return (
         <div className="container">
