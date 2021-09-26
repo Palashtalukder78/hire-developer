@@ -1,11 +1,14 @@
 # Hire Developer
 
-Live Website: [View](https://hire-developer-react.netlify.app/).
+Live Website: [Visit](https://hire-developer-react.netlify.app/).
 
 How Its Work:
-Markup : * It's a website where you can hire Developer for Your Company.
-         * You can see the developer's salary 
-         * It can be easiest way to find worldclass Developer from Here
+<ul>
+    <li>It's a website where you can hire Developer for Your Company.</li>
+    <li>You can see the developer's salary</li>
+    <li>It can be easiest way to find worldclass Developer from Here</li>
+</ul>
+
 <!-- ## Available Scripts
 
 In the project directory, you can run:
