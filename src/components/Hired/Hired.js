@@ -19,6 +19,7 @@ const Hired = (props) => {
             <div>
                 {
                     devInfo.map(developer => <DevInfo
+                        key = {developer.key}
                         devInfo={developer}
                     ></DevInfo>)
                 }
