@@ -1,36 +1,20 @@
 import React from 'react';
 import './Header.css';
-import logo from '../../images/logo1.png'
+// import logo from '../../images/logo1.png';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCode } from '@fortawesome/free-solid-svg-icons'
+const logo = <FontAwesomeIcon className="logo" icon={faCode} />
 
 const Header = () => {
     return (
-        <div>
-            <nav class="navbar navbar-expand-lg ">
-                <div class="container">
-                    <a class="navbar-brand d-flex align-items-center" href="/nav">
-                        <img className='logo' src={logo} alt="" />
-                        <h3 className='text-light ms-2'>HireDev</h3>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active text-light" aria-current="page" href="/home">Home</a>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link active text-light" aria-current="page" href="/home">About</a>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link active text-light" aria-current="page" href="/home">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
+        <>
+            <div class="container header">
+                <h2 className="text-center m-0 p-0">{logo} Hire Developer</h2>
+                <p className="text-center p-0 m-0">Hire developer for your company and increasing your productivity.</p>
+                <h4 className="text-center">Total Budgets: <b>100 Million</b></h4>
+            </div>
+        </>
     );
 };
-
 export default Header;

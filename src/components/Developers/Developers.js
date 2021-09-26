@@ -1,8 +1,12 @@
 import React from 'react';
-import './Developers.css'
+import './Developers.css';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons'
+const icon = <FontAwesomeIcon className="icon" icon={faArrowAltCircleRight} />
 
 const Developers = (props) => {
-    const { name, img, role, country, experience,salary } = props.developer;
+    const { name, img, role, country, experience, salary } = props.developer;
     return (
         <div className="col-md-4">
             <div class="card p-2 my-2 developer">
@@ -14,8 +18,8 @@ const Developers = (props) => {
                     <p><b>Country:</b> {country}</p>
                     <p><b>Role:</b> {role}</p>
                     <p><b>Experience:</b> {experience}</p>
-                    <p><b>Salary:</b>$ {salary}</p>
-                    <button onClick={()=> props.hireDeveloperHandle(props.developer)} className='hire-btn'>Hire Me</button>
+                    <p><b>Salary:</b> $ {salary}</p>
+                    <button onClick={() => props.hireDeveloperHandle(props.developer)} className='hire-btn'>Hire Me {icon}</button>
                 </div>
             </div>
         </div>

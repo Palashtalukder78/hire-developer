@@ -1,31 +1,44 @@
 body{
-    background-color: rgb(224, 233, 233);
+    background-color: rgb(240, 247, 247);
 }
 .developer{
-    
-    background-color: rgb(99, 102, 231);
-    color: #fff;
-    border-radius: 45px 0 45px 0 ;
+    background-color: rgb(227, 227, 238);
+    color: rgb(0, 0, 0);
+    /* border-radius: 45px 0 45px 0 ; */
+    border-radius: 20px;
     transition: 0.7s;
 }
 .developer:hover{
     /* border-radius:  0 45px 0 45px; */
     border-radius:  5px;
-    background-color: rgb(195, 195, 212);
-    color: #000
+    background-color: rgba(0, 4, 253, 0.911);
+    color: rgb(255, 255, 255);
+    transform: translatey(-5px);
+}
+.developer p{
+    font-size: 16px;
 }
 .dev-photo{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
 }
 .developer p{
     margin: 5px 0;
 }
 .hire-btn{
-    background-color: cornsilk;
+    background-color: rgb(237, 236, 241);
     border: none;
-    font-size: 15px;
+    border: 1px solid rgba(136, 138, 255, 0.911);
+    font-size: 18px;
     border-radius: 5px;
     padding: 5px 15px;
+    transition: 0.7s;
+}
+.hire-btn:hover{
+    transform: translateX(5px);
+    background-color: rgb(242, 241, 247);
+}
+.icon{
+    color: rgb(9, 1, 46);
 }

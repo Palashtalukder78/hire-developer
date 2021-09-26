@@ -1,8 +1,12 @@
-# Getting Started with Create React App
+# Hire Developer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Website: [Create React App](https://hire-developer-react.netlify.app/).
 
-## Available Scripts
+How Its Work:
+    * It's a website where you can hire Developer for Your Company.
+    * You can see the developer's salary 
+    * It can be easiest way to find worldclass Developer from Here
+<!-- ## Available Scripts
 
 In the project directory, you can run:
 
@@ -68,3 +72,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ -->
