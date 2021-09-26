@@ -1,3 +1,5 @@
+//It is the right Section of the Page where are selected Developer and Total Salary.
+
 import React from 'react';
 import DevInfo from '../DevInfo/DevInfo';
 import './Hired.css'

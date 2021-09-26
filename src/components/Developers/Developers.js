@@ -1,3 +1,5 @@
+//It is the right section or Developers section where are developer with their informations.
+
 import React from 'react';
 import './Developers.css';
 

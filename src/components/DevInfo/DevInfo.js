@@ -1,3 +1,5 @@
+//it is right side bottom section where Selected developer Added when the client hired.
+
 import React from 'react';
 import './DevInfo.css'
 

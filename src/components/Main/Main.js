@@ -1,3 +1,4 @@
+// It is the main page where i added few component for render 
 import React, { useEffect, useState } from 'react';
 import Developers from '../Developers/Developers';
 import Hired from '../Hired/Hired';

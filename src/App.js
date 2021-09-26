@@ -1,3 +1,4 @@
+//It is the Place where, we add necessary components and render the web page.
 import './App.css';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';

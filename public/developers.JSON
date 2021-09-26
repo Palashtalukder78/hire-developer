@@ -45,15 +45,6 @@
         "salary": 110000
     },
     {
-        "key": "sdfswedfsdfdf",
-        "name": "Mumudu Sumbandu",
-        "img": "https://i.pinimg.com/736x/25/0f/88/250f88056cea9eebc6278383f074ece8.jpg",
-        "role": "Full Stack Developer",
-        "country": "UK",
-        "experience": "1 years",
-        "salary": 100000
-    },
-    {
         "key": "vsdwfvve",
         "name": "Arestobis",
         "img": "https://image.shutterstock.com/image-photo/closeup-photo-young-macho-business-260nw-1683486055.jpg",
@@ -115,6 +106,15 @@
         "country": "USA",
         "experience": "5 years",
         "salary": 1650000
+    },
+    {
+        "key": "sdfswedfsdfdf",
+        "name": "Mumudu Sumbandu",
+        "img": "https://i.pinimg.com/736x/25/0f/88/250f88056cea9eebc6278383f074ece8.jpg",
+        "role": "Full Stack Developer",
+        "country": "UK",
+        "experience": "1 years",
+        "salary": 100000
     },
     {
         "key": "hdfgrggewrwwefw",

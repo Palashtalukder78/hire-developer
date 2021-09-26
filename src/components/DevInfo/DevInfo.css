@@ -1,10 +1,10 @@
 .thumbnailPhoto{
     width: 100px;
-    height: 105px;
+    height: 90px;
 }
 .hiredDev{
     border-radius: 0 10px  10px 0;
-    background-color: rgb(221, 216, 228);
+    background-color: rgb(240, 238, 243);
 }
 .hiredDev p{
     margin: 0;
